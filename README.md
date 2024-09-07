@@ -4,12 +4,17 @@ This repository contains a dataset curated for the purpose of detecting and anal
 
 ## Dataset Description
 The dataset comprises entries that provide detailed information about companies, their environmental claims, accusations of greenwashing, and other relevant details. The key fields in the dataset include:
+- Company: The name of the company.
+- Year: The year when the greenwashing claim or accusation was made.
+- URL: A link to a source or reference for the claim or accusation.
+- Claim: The environmental claim made by the company.
+- Accusation: Details of the greenwashing accusation (if available).
+- Company Description: A brief description of the company's operations and products.
+- Type: The nature of the entry (e.g., greenwash).
+- Certificates: Environmental certificates held by the company (if any).
 
-Company: The name of the company.
-Year: The year when the greenwashing claim or accusation was made.
-URL: A link to a source or reference for the claim or accusation.
-Claim: The environmental claim made by the company.
-Accusation: Details of the greenwashing accusation (if available).
-Company Description: A brief description of the company's operations and products.
-Type: The nature of the entry (e.g., greenwash).
-Certificates: Environmental certificates held by the company (if any).
+## Contribution
+Contributions to the dataset are welcome. If you have additional data or corrections, please submit a pull request or open an issue.
+
+## License
+This dataset is provided under the MIT License.
